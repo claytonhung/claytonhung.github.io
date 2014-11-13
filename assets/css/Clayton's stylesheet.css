@@ -1,0 +1,72 @@
+<style type="text/css">
+		#page-wrap {
+			margin: 100px;
+			min-width: 600px;
+			max-width: 700px;
+			}
+		body {
+			font-size:1em; 
+			font-family: Arial, Helvetica, "Times New Roman";
+			padding: 0em;
+			margin: 2em;
+			}
+		h1 {
+			color:#336699;
+			font-size:50px;
+			margin:0;
+			text-align:left;
+			margin-left: 0.4em;
+			font-family: Calibri;
+			}
+		h2 {
+			font-size:25px;
+			font-weight:bold;
+			color:#FFFFFF;
+			background-color: #666666;
+			padding: 0.2em;
+			padding-left: 0.5em;
+			margin-left: 0.2em;
+			margin-right:1em;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+			}	
+		h3 {
+			font-size: 18px;
+			background-color: #D0D0D0 ;
+			padding: 0.1em;
+			margin-left: 0.6em;
+			margin-right: 1.6em;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+			}
+		h4 {
+			margin-left: 0.6em;
+			margin-right:1em;
+			}
+		#info {
+			text-align: left;
+			margin-top: -2.7em;
+			margin-right: 1em;
+			float: right;
+		}	
+			.date {
+				margin-top: 2.5em;
+				margin-right: 1em;
+				text-align: right;
+				font-size: 0.9em;
+				padding: 0em;
+				font-weight:bold;
+				}	
+			.header {
+				float:right;
+				text-align:left;
+				margin-right:2px;
+				margin-top:-20px;
+				font-size: 1em;
+				}	
+
+	</style>
