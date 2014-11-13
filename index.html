@@ -11,7 +11,6 @@
       <link rel="stylesheet" href="assets/css/bootstrap.min.css">
       <link rel="stylesheet" href="assets/fonts/typicons.min.css">
       <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-
       <script type="text/javascript">
 
        //Welcome! I am tracking you
@@ -115,41 +114,6 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.scrollTo.js"></script>
-
-    <script type="text/javascript">
-
-      // $('#lnk-interest').on('click', function (event) {
-      //   event.preventDefault();
-      //   event.stopPropagation();
-      //   event.cancelBubble = true;
-
-      //   $('#home').hide();
-      //   $('#contact').hide();
-      //   $('#portfolio').hide();
-      //   $('#interest').removeClass('hidden');
-      //   $('#interest').fadeIn(3000);
-      // });
-
-      var content = $('#content'); 
-      content .find('section:not(.active)').hide()
-      $('.navbar-nav a').click(function(){  
-        var $this = $(this)
-        , selector    = $this.attr('href')
-        , activated   = content.find(selector)
-        , active      = activated.siblings('.active')
-        , selected    = $('.navbar-nav a.selected')
-
-        $this.addClass('selected')
-        selected.removeClass('selected')
-
-        active.fadeOut(function(){
-          active.removeClass('active')
-          activated.addClass('active').fadeIn(2000)
-          $.scrollTo(activated, 750);
-        })
-       })
-
-
-    </script>
+    <script src="assets/js/hohoho.js"></script>
   </body>
 </html>
