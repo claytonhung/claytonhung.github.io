@@ -9,6 +9,8 @@
       //   $('#interest').removeClass('hidden');
       //   $('#interest').fadeIn(3000);
       // });
+
+
 $(function(){
       var content = $('#content'); 
       content .find('section:not(.active)').hide()
@@ -27,5 +29,6 @@ $(function(){
           activated.addClass('active').fadeIn(2000)
           $.scrollTo(activated, 750);
         })
+         $(".navbar-header .navbar-toggle").trigger( "click" );
        })
     })
